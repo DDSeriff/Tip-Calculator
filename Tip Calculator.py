@@ -1,0 +1,6 @@
+print ("Welcome to this handy tip calculator!")
+totalbill = input ("How much was your total bill? $")
+tip = input ("What percentage of a tip would you like to give? 10, 12, 15, or 20?")
+billshare = input ("How many ways are you splitting the bill?")
+finalprice = (float(totalbill)*float(tip)/100)/float(billshare)
+print ("Each person should pay: $"+str(round(finalprice, 2)))
